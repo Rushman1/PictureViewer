@@ -7,7 +7,8 @@ using Infrastructure.Interfaces;
 
 namespace Services.LogService {
   public class LogService : ILogService {
-    private string ERROR_LOG_LOCATION = System.IO.Path.Combine(Environment.SpecialFolder.Personal.ToString(),"PictureViewer");
+    private string ERROR_LOG_LOCATION =
+      System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "PictureViewer");
     private const string ERROR_LOG_FILE_NAME= "ErrorLog.log";
     private const string FOLDER_LIST_FILE_NAME = "FolderList.txt";
 

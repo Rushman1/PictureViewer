@@ -6,3 +6,7 @@ G:\Tims\Code\WPFApps\PictureViewer_V2\Business\bin\Debug\Business.dll
 G:\Tims\Code\WPFApps\PictureViewer_V2\Business\bin\Debug\Business.pdb
 G:\Tims\Code\WPFApps\PictureViewer_V2\Business\obj\Debug\Business.dll
 G:\Tims\Code\WPFApps\PictureViewer_V2\Business\obj\Debug\Business.pdb
+G:\Tims\Code\WPFApps\PictureViewer_V2\PictureViewer\Business\bin\Debug\Business.dll
+G:\Tims\Code\WPFApps\PictureViewer_V2\PictureViewer\Business\bin\Debug\Business.pdb
+G:\Tims\Code\WPFApps\PictureViewer_V2\PictureViewer\Business\obj\Debug\Business.dll
+G:\Tims\Code\WPFApps\PictureViewer_V2\PictureViewer\Business\obj\Debug\Business.pdb

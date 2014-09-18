@@ -16,3 +16,12 @@ G:\Tims\Code\WPFApps\PictureViewer_V2\Resources\obj\Debug\Resources.Properties.R
 G:\Tims\Code\WPFApps\PictureViewer_V2\Resources\obj\Debug\Resources.csproj.GenerateResource.Cache
 G:\Tims\Code\WPFApps\PictureViewer_V2\Resources\obj\Debug\Resources.dll
 G:\Tims\Code\WPFApps\PictureViewer_V2\Resources\obj\Debug\Resources.pdb
+G:\Tims\Code\WPFApps\PictureViewer_V2\PictureViewer\Resources\bin\Debug\Resources.dll
+G:\Tims\Code\WPFApps\PictureViewer_V2\PictureViewer\Resources\bin\Debug\Resources.pdb
+G:\Tims\Code\WPFApps\PictureViewer_V2\PictureViewer\Resources\obj\Debug\TextBlockStyles.baml
+G:\Tims\Code\WPFApps\PictureViewer_V2\PictureViewer\Resources\obj\Debug\Resources_MarkupCompile.cache
+G:\Tims\Code\WPFApps\PictureViewer_V2\PictureViewer\Resources\obj\Debug\Resources.g.resources
+G:\Tims\Code\WPFApps\PictureViewer_V2\PictureViewer\Resources\obj\Debug\Resources.Properties.Resources.resources
+G:\Tims\Code\WPFApps\PictureViewer_V2\PictureViewer\Resources\obj\Debug\Resources.csproj.GenerateResource.Cache
+G:\Tims\Code\WPFApps\PictureViewer_V2\PictureViewer\Resources\obj\Debug\Resources.dll
+G:\Tims\Code\WPFApps\PictureViewer_V2\PictureViewer\Resources\obj\Debug\Resources.pdb

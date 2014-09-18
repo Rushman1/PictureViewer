@@ -19,7 +19,7 @@ namespace Infrastructure.Helpers {
 
     public void WriteListOfPathsToFile(Dictionary<int, string> paths) {
       if (!DoesPathListFileExist()) {
-        File.Create(_pathFile);
+        File.Create(_pathFile).Close();
       }
 
       using (var writer = File.CreateText(_pathFile)) {

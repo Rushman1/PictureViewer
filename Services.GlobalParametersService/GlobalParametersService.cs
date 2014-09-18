@@ -4,7 +4,7 @@ using Infrastructure.Enums;
 using Infrastructure.Helpers;
 using Infrastructure.Interfaces;
 using System.Configuration;
-using Settings = Business.Settings;
+using Settings=Business.Settings;
 
 namespace Services.GlobalParametersService {
   public class GlobalParametersService : IGlobalParametersService {
@@ -18,21 +18,22 @@ namespace Services.GlobalParametersService {
     public string PathListFileName { get; set; }
 
     public GlobalParametersService() {
-      GlobalSettings = new Settings();
-      ImageList = new List<string>();
-      ProgramState = ProgramStatesEnum.running;
+      GlobalSettings=new Settings();
+      ImageList=new List<string>();
+      ProgramState=ProgramStatesEnum.running;
       GetStaticImageList();
-      var appSettings = ConfigurationManager.AppSettings;
-      ShowDebugMessages = appSettings[0] == "true";
-      LogDirectoryName = appSettings[1];
-      LogFileName = appSettings[2];
-      PathListDirectoryName = appSettings[3];
-      PathListFileName = appSettings[4];}
+      var appSettings=ConfigurationManager.AppSettings;
+      ShowDebugMessages=appSettings[0]=="true";
+      LogDirectoryName=appSettings[1];
+      LogFileName=appSettings[2];
+      PathListDirectoryName=string.IsNullOrEmpty(appSettings[3])?System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "PictureViewer"):appSettings[3];
+      PathListFileName=appSettings[4];
+    }
 
     private void GetStaticImageList() {
-      var il = new ImageHelper();
-      GlobalSettings.ImagePath = Environment.GetFolderPath(Environment.SpecialFolder.MyPictures);
-      ImageList = il.CheckForImagesForDirectory(Environment.GetFolderPath(Environment.SpecialFolder.MyPictures),GlobalSettings);
+      var il=new ImageHelper();
+      GlobalSettings.ImagePath=Environment.GetFolderPath(Environment.SpecialFolder.MyPictures);
+      ImageList=il.CheckForImagesForDirectory(Environment.GetFolderPath(Environment.SpecialFolder.MyPictures), GlobalSettings);
     }
   }
 }
