@@ -1,0 +1,10 @@
+H:\Code\WPFApps\PictureViewer_V2\Services.DataAccessService\bin\Debug\Services.DataAccessService.dll
+H:\Code\WPFApps\PictureViewer_V2\Services.DataAccessService\bin\Debug\Services.DataAccessService.pdb
+H:\Code\WPFApps\PictureViewer_V2\Services.DataAccessService\obj\Debug\Services.DataAccessService.dll
+H:\Code\WPFApps\PictureViewer_V2\Services.DataAccessService\obj\Debug\Services.DataAccessService.pdb
+H:\Code\WPFApps\PictureViewer_V2\Services.DataAccessService\obj\Debug\Services.DataAccessService.csprojResolveAssemblyReference.cache
+G:\Tims\Code\WPFApps\PictureViewer_V2\Services.DataAccessService\bin\Debug\Services.DataAccessService.dll
+G:\Tims\Code\WPFApps\PictureViewer_V2\Services.DataAccessService\bin\Debug\Services.DataAccessService.pdb
+G:\Tims\Code\WPFApps\PictureViewer_V2\Services.DataAccessService\obj\Debug\Services.DataAccessService.dll
+G:\Tims\Code\WPFApps\PictureViewer_V2\Services.DataAccessService\obj\Debug\Services.DataAccessService.pdb
+G:\Tims\Code\WPFApps\PictureViewer_V2\Services.DataAccessService\obj\Debug\Services.DataAccessService.csprojResolveAssemblyReference.cache

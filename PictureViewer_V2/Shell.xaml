@@ -1,0 +1,35 @@
+﻿<Window x:Class="PictureViewer_V2.Shell"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:regions="http://www.codeplex.com/CompositeWPF"
+        xmlns:inf="clr-namespace:Infrastructure;assembly=Infrastructure"
+        Title="Picture Viewer" Height="322" Width="360" Icon="yinyang.ico" 
+        MinWidth="360" MinHeight="330" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" 
+        HorizontalAlignment="Center" VerticalAlignment="Center" Background="{x:Null}" MouseLeftButtonDown="DragWindow"
+        MouseDoubleClick="Window_MouseDoubleClick" WindowStyle="None" ResizeMode="CanResizeWithGrip" AllowsTransparency="True">
+  <Grid>
+    <ContentControl regions:RegionManager.RegionName="{x:Static inf:RegionNames.MainRegion}"/>
+    <Grid.ContextMenu>
+      <ContextMenu>
+        <MenuItem x:Name="menuClose" Header="Close" Click="menuClose_Click">
+          <MenuItem.Icon>
+            <Image Source="pack://application:,,,/Resources;component/Images/photographer_close_32.png" Height="20" Width="20" />
+          </MenuItem.Icon>
+        </MenuItem>
+        <MenuItem x:Name="menuSettings" Header="Settings" Command="{Binding Path=ShowSettingsCommand}">
+          <MenuItem.Icon>
+            <Image Source="pack://application:,,,/Resources;component/Images/Settings1.png" Height="20" Width="20" />
+          </MenuItem.Icon>
+        </MenuItem>
+        <Separator/>
+        <MenuItem x:Name="MenuShowDebug" Header="Show Debug Window" Command="{Binding Path=ShowDebugWindowCommand}" IsChecked="{Binding Path=DebugWindowVisible}">
+          <MenuItem.Icon>
+            <Image Source="pack://application:,,,/Resources;component/Images/debug_preferences.png" Height="20" Width="20"/>
+          </MenuItem.Icon>
+        </MenuItem>
+        <Separator />
+        <MenuItem x:Name="menuKOT" Header="Keep On Top" Click="menuKOT_Click" IsCheckable="true" />
+      </ContextMenu>
+    </Grid.ContextMenu>
+  </Grid>
+</Window>

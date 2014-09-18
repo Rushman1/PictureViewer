@@ -1,0 +1,25 @@
+﻿<Application x:Class="PictureViewer_V2.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Application.Resources>
+    <Storyboard x:Key="FadeInBottom">
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="brdControlsBottom" Storyboard.TargetProperty="(UIElement.Opacity)">
+        <SplineDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+        <SplineDoubleKeyFrame KeyTime="00:00:00.500" Value="1"/>
+      </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+    <Storyboard x:Key="FadeOutBottom">
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="brdControlsBottom" Storyboard.TargetProperty="(UIElement.Opacity)">
+        <SplineDoubleKeyFrame KeyTime="00:00:00.500" Value="0"/>
+      </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+    <Storyboard x:Key="FadeInBorder">
+      <ColorAnimation AutoReverse="False"/>
+    </Storyboard>
+    <ResourceDictionary x:Key="Dictionary">
+      <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="pack://application:,,,/Resources;component/TextBlockStyles.xaml" />
+      </ResourceDictionary.MergedDictionaries>
+    </ResourceDictionary>
+  </Application.Resources>
+</Application>
