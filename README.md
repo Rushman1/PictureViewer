@@ -10,10 +10,10 @@ It is a WPF 4.5 application written with VS 2013 and C# and uses .Net version 4.
 The solution is divided into different projects:
    - Business - holds the models and other business related pieces of code
    - Infrastructure - holds the global classes like: 
-      -  Enums, 
-      -  Helpers, 
-      -  Images, 
-      -  Interfaces, 
+      -  Enums 
+      -  Helpers 
+      -  Images 
+      -  Interfaces 
       -  ViewModelBase
    - Modules.ImageModule - the work horse of the application and holds the ImageViewer.xaml user control
    - PictureViewer_V2 - WPF Application to hold the ImageModules user control
