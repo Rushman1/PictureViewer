@@ -5,9 +5,15 @@
         xmlns:inf="clr-namespace:Infrastructure;assembly=Infrastructure"
         Title="Picture Viewer" Height="322" Width="360" Icon="yinyang.ico" 
         MinWidth="360" MinHeight="330" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" 
-        HorizontalAlignment="Center" VerticalAlignment="Center" Background="{x:Null}" MouseLeftButtonDown="DragWindow"
+        HorizontalAlignment="Center" VerticalAlignment="Center" Background="{x:Null}" MouseLeftButtonDown="DragWindow" SizeChanged="Shell_OnSizeChanged"
         MouseDoubleClick="Window_MouseDoubleClick" WindowStyle="None" ResizeMode="CanResizeWithGrip" AllowsTransparency="True">
-  <Grid>
+  <Grid MouseEnter="DockPanel_MouseEnter" MouseLeave="DockPanel_MouseLeave" x:Name="MainGrid">
+<!--
+    <Canvas Width="50" x:Name="MenuCanvas" ZIndex="10">
+      <Border Background="White" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+              Height="150" Width="50"/>
+    </Canvas>
+-->
     <ContentControl regions:RegionManager.RegionName="{x:Static inf:RegionNames.MainRegion}"/>
     <Grid.ContextMenu>
       <ContextMenu>

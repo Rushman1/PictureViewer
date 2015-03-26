@@ -10,3 +10,13 @@ G:\Tims\Code\WPFApps\PictureViewer_V2\PictureViewer\Business\bin\Debug\Business.
 G:\Tims\Code\WPFApps\PictureViewer_V2\PictureViewer\Business\bin\Debug\Business.pdb
 G:\Tims\Code\WPFApps\PictureViewer_V2\PictureViewer\Business\obj\Debug\Business.dll
 G:\Tims\Code\WPFApps\PictureViewer_V2\PictureViewer\Business\obj\Debug\Business.pdb
+E:\Tims\Code\WPFApps\PictureViewer_V2\PictureViewer\Business\bin\Debug\Business.dll
+E:\Tims\Code\WPFApps\PictureViewer_V2\PictureViewer\Business\bin\Debug\Business.pdb
+E:\Tims\Code\WPFApps\PictureViewer_V2\PictureViewer\Business\obj\Debug\Business.dll
+E:\Tims\Code\WPFApps\PictureViewer_V2\PictureViewer\Business\obj\Debug\Business.pdb
+E:\Tims\Code\WPFApps\PictureViewer_V2\PictureViewer\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+F:\Tims\Code\WPFApps\PictureViewer_V2\PictureViewer\Business\bin\Debug\Business.dll
+F:\Tims\Code\WPFApps\PictureViewer_V2\PictureViewer\Business\bin\Debug\Business.pdb
+F:\Tims\Code\WPFApps\PictureViewer_V2\PictureViewer\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+F:\Tims\Code\WPFApps\PictureViewer_V2\PictureViewer\Business\obj\Debug\Business.dll
+F:\Tims\Code\WPFApps\PictureViewer_V2\PictureViewer\Business\obj\Debug\Business.pdb

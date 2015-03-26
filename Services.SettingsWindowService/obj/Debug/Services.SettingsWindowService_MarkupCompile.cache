@@ -4,7 +4,7 @@
 library
 C#
 .cs
-G:\Tims\Code\WPFApps\PictureViewer_V2\PictureViewer\Services.SettingsWindowService\obj\Debug\
+E:\Tims\Code\WPFApps\PictureViewer_V2\PictureViewer\Services.SettingsWindowService\obj\Debug\
 Services.SettingsWindowService
 none
 false
@@ -13,7 +13,7 @@ DEBUG;TRACE
 1-589139823
 
 6-371061835
-24-2033127185
+241100503244
 Views\SettingsWindow.xaml;
 
 False

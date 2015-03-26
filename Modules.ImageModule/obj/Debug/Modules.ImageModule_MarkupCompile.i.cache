@@ -4,7 +4,7 @@
 library
 C#
 .cs
-G:\Tims\Code\WPFApps\PictureViewer_V2\PictureViewer\Modules.ImageModule\obj\Debug\
+H:\Tims\Code\WPFApps\PictureViewer_V2\PictureViewer\Modules.ImageModule\obj\Debug\
 Modules.ImageModule
 none
 false
@@ -13,8 +13,8 @@ DEBUG;TRACE
 1-1208223266
 
 10-589469480
-24-1120218962
+24637495284
 Views\ImageViewer.xaml;
 
-False
+True
 

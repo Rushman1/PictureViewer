@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using Infrastructure.Enums;
 using Infrastructure.Helpers;
 using Infrastructure.Interfaces;
@@ -34,6 +35,9 @@ namespace Services.GlobalParametersService {
       var il=new ImageHelper();
       GlobalSettings.ImagePath=Environment.GetFolderPath(Environment.SpecialFolder.MyPictures);
       ImageList=il.CheckForImagesForDirectory(Environment.GetFolderPath(Environment.SpecialFolder.MyPictures), GlobalSettings);
+      if (!ImageList.Any()) {
+        ImageList.Add(@"../Empty.png");
+      }
     }
   }
 }

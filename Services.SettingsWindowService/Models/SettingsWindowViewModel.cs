@@ -130,10 +130,7 @@ namespace Services.SettingsWindowService.Models {
         _listOfPaths.Clear();
         _listOfPaths=_d.GetListOfPathsFromFile();
 
-        var pathSplit = _selectedPath.Split('\\');
-        // TODO: Add to RecentFolderList combobox
-        // TODO: And add to recent file list (keep 5)
-
+        RecentFolderList.Clear();
         RecentFolderList = _listOfPaths;
         RecentFolderListSelectedIndex = 0;
       }
